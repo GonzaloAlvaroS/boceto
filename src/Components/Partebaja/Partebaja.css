@@ -1,0 +1,156 @@
+.partebajatodo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    padding: 55px;
+    margin-top: 100px;
+    position: relative;
+    height: 300px;
+    transform: translateY(-14px);
+}
+.granlineaazul{
+    height: 65px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #0b7fec; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: -62px;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+.lineaazul1{
+    height: 5px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #0b7fec; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 10px;
+    left: 100;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+.lineaazul2{
+    height: 5px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #0b7fec; /* El color de la línea */
+    width: 40%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 10px;
+    left: 100;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+.lineaazul3{
+    height: 5px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #0b7fec; /* El color de la línea */
+    width: 82%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 10px;
+    left: 100;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+.titulolinea{
+    font-size: 25px;
+}
+
+.infobaja1{
+    transform: translateX(8px);
+}
+.infobaja2{
+    transform: translateX(110px);
+}
+.infobaja3{
+    transform: translateX(27px);
+}
+.infobaja1 h4{
+    transform: translateY(-15px);
+}
+.infobaja2 h4{
+    transform: translateY(-15px);
+}
+.infobaja3 h4{
+    transform: translateY(-15px);
+}
+.infobaja1 p{
+    width: 310px;
+}
+.infobaja2 p{
+    width: 310px;
+}
+.infobaja3 p{
+    width: 310px;
+}
+.infodireccion{
+    transform: translateY(10px);
+}
+.infotelefono{
+    transform: translateY(25px);
+}
+.infoemail{
+    transform: translateY(40px);
+}
+.infomedia{
+    transform: translateY(55px);
+}
+.infocontacto{
+    transform: translateY(70px);
+}
+.logoyredes{
+    transform: translateX(28px);
+}
+.btnredes{
+    background: #4b96dd;
+    color: #fff;
+    padding: 9px 9px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transform: translateX(-165px) translateY(30px)  
+}
+.btnredes2{
+    background: #4b96dd;
+    color: #fff;
+    padding: 9px 9px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transform: translateX(-150px) translateY(30px)  
+}
+.btnredes3{
+    background: #4b96dd;
+    color: #fff;
+    padding: 9px 9px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transform: translateX(-135px) translateY(30px)  
+}

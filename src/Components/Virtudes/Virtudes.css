@@ -1,0 +1,39 @@
+.virtudes{
+    width: 100%;
+    min-height: 69vh;
+    background: url("../../assets/imagenstock.png");
+    background-size: cover;
+    background-position: center;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.virtudes-text{
+    text-align: left;
+    max-width: 600px;
+    transform: translateX(323px);
+}
+.virtudes-text h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* ----- media query ---------- */
+
+@media (max-width: 850px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
