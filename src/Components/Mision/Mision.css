@@ -1,0 +1,94 @@
+.mision{
+    width: 100%;
+    min-height: 69vh;
+    background: url("../../assets/imagenstock.png");
+    background-size: cover;
+    background-position: center;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mision-text{
+    text-align: left;
+    margin-right: 600px;
+    max-width: 600px;
+}
+.mision-text h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* ----- media query ---------- */
+@media (max-width: 1280px){
+    .mision-text{
+        margin-right: 518px;
+    }
+    .mision-text h3{
+        font-size: 21px;
+    }
+    .mision-text h1{
+        font-size: 45px;
+        width: 700px;
+    }
+}
+@media (max-width: 1024px){
+    .mision-text{
+        margin-right: 295px;
+    }
+    .mision-text h3{
+        font-size: 16px;
+    }
+    .mision-text h1{
+        font-size: 40px;
+        width: 700px;
+    }
+}
+@media (max-width: 800px){
+    .mision-text{
+        margin-right: 102px;
+    }
+    .mision-text h1{
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .mision-text h3{
+        margin-left: 103px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 414px){
+    .mision-text{
+        margin-right: 0px;
+    }
+    .mision-text h1{
+        font-size: 30px;
+        max-width: 360px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .mision-text h3{
+        margin-left: 0px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 400px){
+    .mision-text h1{
+        max-width: 300px;
+        font-size: 25px;
+    }
+    .mision-text h3{
+        font-size: 15px;
+    }
+}

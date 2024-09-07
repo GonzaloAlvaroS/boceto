@@ -1,0 +1,291 @@
+.partebajatodo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    margin-top: 90px;
+    position: relative;
+    height: 300px;
+}
+.granlineaazul{
+    height: 65px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #0b7fec; /* El color de la línea */
+    width: 100%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: -62px;
+    left: 0;
+    z-index: 4; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+.lineaazul1{
+    height: 5px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #0b7fec; /* El color de la línea */
+    width: 23.1%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 60px;
+    left: 100;
+    z-index: 4; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+.lineaazul2{
+    height: 5px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #0b7fec; /* El color de la línea */
+    width: 41%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 25px;
+    left: 100;
+    z-index: 4; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+.lineaazul3{
+    height: 5px; /* Ajusta el grosor de la línea como prefieras */
+    background-color: #0b7fec; /* El color de la línea */
+    width: 19%; /* Asegura que la línea ocupe todo el ancho */
+    position: absolute; /* O 'absolute' si solo necesitas que sea en relación al contenedor más cercano posicionado */
+    top: 60px;
+    left: 100;
+    z-index: 4; /* Asegura que esté por encima de otros elementos */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    color: black;
+}
+.titulolinea{
+    font-size: 25px;
+}
+
+.partebajainfotodo{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 83px;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+.infobaja{
+    flex-basis: 40%;
+    margin: 0;
+    padding: 0; 
+}
+.infobajalogo{
+    margin: 0;
+    margin-left: 90px;
+    padding: 0; 
+}
+.infobaja1{
+   transform: translateX(92px);
+}
+.infobaja h4{
+    padding-bottom: 28px;
+}
+
+.infodireccion{
+    padding-bottom: 15px;
+}
+.infotelefono{
+    padding-bottom: 15px;
+}
+.infoemail{
+    padding-bottom: 15px;
+}
+.infomedia{
+    padding-bottom: 15px;
+}
+.infobaja p{
+    width: 310px;
+}
+.logoboton{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    transform: translateX(-10px);
+}
+.btnredes{
+    background: #4b96dd;
+    color: #fff;
+    padding: 9px 9px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.btnredes2{
+    background: #4b96dd;
+    color: #fff;
+    padding: 9px 9px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.btnredes3{
+    background: #4b96dd;
+    color: #fff;
+    padding: 9px 9px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+/* ----- media query ---------- */
+@media (max-width: 1024px){
+    .infobaja{
+        margin: 0;
+        padding: 0;
+    }
+    .partebajainfotodo{
+        flex-wrap: wrap;
+    }
+    .infobajaxd{
+        margin-left: 70px;
+        margin-top: 25px;
+    }
+    .infobajalogo{
+        margin-right: 60px;
+    }
+    .infobaja2{
+        margin-right: 60px;
+    }
+    .logoboton{
+        justify-content: space-between;
+        display: inline-flex;
+        align-items: center;
+    }
+    .lineaazul3{
+        top: 273px;
+    }
+    .infobaja2{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 800px){
+    .infobaja{
+        margin: 0;
+        padding: 0;
+    }
+    .partebajainfotodo{
+        flex-wrap: wrap;
+    }
+    .infobajaxd{
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .infobaja1{
+        margin-left: -35px;
+    }
+    .logoboton{
+        justify-content: space-between;
+        display: inline-flex;
+        align-items: center;
+    }
+    .lineaazul3{
+        top: 273px;
+    }
+    .infobaja2{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 768px){
+    .infobajaxd{
+        margin-left: 10px;
+    }
+    .infobaja1{
+        margin-left: -42px;
+    }
+    .infobajalogo{
+        margin-right: 35px;
+    }
+    .infobaja2{
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 414px){
+    .granlineaazul{
+        text-align: center;
+    }
+    .partebajainfotodo{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .infobajaxd{
+        margin-left: 90px;
+        margin-top: 40px;
+    }
+    .infobajalogo{
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+    .infobaja1{
+        margin-top: 50px;
+        transform: translateX(77px);
+    }
+    .infobaja2{
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+    .logoboton{
+        display: flex;
+        transform: translateX(-10px);
+    }
+    .infobaja{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .lineaazul1{
+        top: 204px;
+        left: 40px;
+        width: 80%;
+    }
+    .lineaazul2{
+        top: 25px;
+        left: 42px;
+        width: 74%;
+    }
+    .lineaazul3{
+        top: 685px;
+        left: 40px;
+        width: 80%;
+    }
+}
+@media (max-width: 390px){
+    .lineaazul1{
+        top: 204px;
+        left: 40px;
+        width: 76.7%;
+    }
+    .lineaazul3{
+        top: 685px;
+        left: 40px;
+        width: 76.7%;
+    }
+}

@@ -1,0 +1,95 @@
+.virtudes{
+    width: 100%;
+    min-height: 69vh;
+    background: url("../../assets/imagenstock.png");
+    background-size: cover;
+    background-position: center;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.virtudes-text{
+    text-align: left;
+    margin-left: 630px;
+    max-width: 600px;
+}
+.virtudes-text h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* ----- media query ---------- */
+
+@media (max-width: 1280px){
+    .virtudes-text{
+        margin-left: 315px;
+    }
+    .virtudes-text h3{
+        font-size: 21px;
+    }
+    .virtudes-text h1{
+        font-size: 45px;
+        width: 700px;
+    }
+}
+@media (max-width: 1024px){
+    .virtudes-text{
+        margin-left: 248px;
+    }
+    .virtudes-text h3{
+        font-size: 16px;
+    }
+    .virtudes-text h1{
+        font-size: 40px;
+        width: 700px;
+    }
+}
+@media (max-width: 800px){
+    .virtudes-text{
+        margin-left: -100px;
+    }
+    .virtudes-text h1{
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .virtudes-text h3{
+        margin-left: 103px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 414px){
+    .virtudes-text{
+        margin-right: -100px;
+    }
+    .virtudes-text h1{
+        font-size: 30px;
+        max-width: 360px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .virtudes-text h3{
+        margin-left: 0px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 400px){
+    .virtudes-text h1{
+        max-width: 300px;
+        font-size: 25px;
+    }
+    .virtudes-text h3{
+        font-size: 15px;
+    }
+}

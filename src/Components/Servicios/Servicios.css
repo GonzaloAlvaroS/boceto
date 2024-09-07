@@ -1,0 +1,134 @@
+.servicios{
+    margin: 38px 100px;
+    text-align: center;
+}
+
+.titulos p{
+    font-size: xx-large;
+    color: #000F38;
+    font-weight: 600;
+}
+.titulos h2{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: #212EA0;
+    font-size: xx-large;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img{
+    width: 360px;
+    height: 340px;
+    border-radius: 10px;
+}
+.servicio1{
+    flex-basis: 31%;
+    position: relative;
+    margin: 10px;  /* Asegúrate de que no hay margin */
+    padding: 0; /* Asegúrate de que no hay padding */
+}
+.servicio1texto{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: black; /* Color del texto */
+    height: 100%; /* Asegura que cubra toda la imagen */
+    text-align: center;
+    border-radius: 10px;
+    margin: 290px 0px;
+    font-size: xx-large;
+}
+.serviciosbtn{
+    transform: translateY(-25px);
+}
+
+/* ----- media query ---------- */
+
+@media (max-width: 1280px){
+    .gallery{
+        margin-left: -40px;
+    }
+}
+@media (max-width: 1024px){
+    .titulos p{
+        font-size: 25px;
+    }
+    .titulos h2{
+        font-size: 25px;
+    }
+    .gallery{
+        margin-right: 42px;
+    }
+    .gallery img{
+        width: 110%;
+        margin-bottom: 23px;
+    }
+    .servicio1{
+        margin-right: -50px;
+    }
+    .servicio1texto{
+        font-size: 30px;
+        margin-left: 12px;
+        margin-top: 292px;
+    }
+    .serviciosbtn{
+        transform: translateY(-50px);
+    }
+}
+@media (max-width: 800px){
+    .titulos p{
+        font-size: 30px;
+    }
+    .titulos h2{
+        max-width: 600px;
+        font-size: 30px;
+    }
+    .gallery{
+        flex-wrap: wrap;
+        display: block;
+    }
+    .gallery img{
+        margin-left: 23px;
+        width: 70%;
+        margin-bottom: 25px;
+    }
+    .serviciosbtn{
+        transform: translateY(-40px);
+    }
+}
+@media (max-width: 414px){
+    .servicios{
+        margin: 38px 47px;
+    }
+    .gallery{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery img{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .servicio1texto{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 400px){
+    .titulos{
+        max-width: 400px;
+    }
+    .gallery img{
+        margin-left: 23px;
+        margin-bottom: 25px;
+    }
+    .servicio1texto{
+        margin-left: 12px;
+        font-size: 28px;
+        margin-top: 295px;
+    }
+}
